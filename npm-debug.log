@@ -1,0 +1,177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'extend,',
+1 verbose cli   'prompt',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json dron-component@1.0.0 No repository field.
+6 warn package.json dron-component@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'extend,', null ]
+9 verbose cache add name=undefined spec="extend," args=["extend,",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'extend,',
+10 verbose parsed url   path: 'extend,',
+10 verbose parsed url   href: 'extend,' }
+11 verbose cache add [ 'prompt', null ]
+12 verbose cache add name=undefined spec="prompt" args=["prompt",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'prompt',
+13 verbose parsed url   path: 'prompt',
+13 verbose parsed url   href: 'prompt' }
+14 silly lockFile 2735b4b7-extend extend,
+15 verbose lock extend, C:\Users\Morulus\AppData\Roaming\npm-cache\2735b4b7-extend.lock
+16 silly lockFile 9c7e05e5-prompt prompt
+17 verbose lock prompt C:\Users\Morulus\AppData\Roaming\npm-cache\9c7e05e5-prompt.lock
+18 silly lockFile 2735b4b7-extend extend,
+19 silly lockFile 2735b4b7-extend extend,
+20 silly lockFile 9c7e05e5-prompt prompt
+21 silly lockFile 9c7e05e5-prompt prompt
+22 verbose addNamed [ 'extend,', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 2df10966-extend extend,@
+25 verbose lock extend,@ C:\Users\Morulus\AppData\Roaming\npm-cache\2df10966-extend.lock
+26 verbose addNamed [ 'prompt', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 038de136-prompt prompt@
+29 verbose lock prompt@ C:\Users\Morulus\AppData\Roaming\npm-cache\038de136-prompt.lock
+30 silly addNameRange { name: 'extend,', range: '*', hasData: false }
+31 silly addNameRange { name: 'prompt', range: '*', hasData: false }
+32 verbose request where is /extend,
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id cb0da6d1ee49471b
+35 verbose url raw /extend,
+36 verbose url resolving [ 'https://registry.npmjs.org/', './extend%2C' ]
+37 verbose url resolved https://registry.npmjs.org/extend%2C
+38 verbose request where is https://registry.npmjs.org/extend%2C
+39 info trying registry request attempt 1 at 07:00:54
+40 http GET https://registry.npmjs.org/extend%2C
+41 verbose request where is /prompt
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /prompt
+44 verbose url resolving [ 'https://registry.npmjs.org/', './prompt' ]
+45 verbose url resolved https://registry.npmjs.org/prompt
+46 verbose request where is https://registry.npmjs.org/prompt
+47 info trying registry request attempt 1 at 07:00:54
+48 verbose etag "DPWNRI526QG24XD9DZTBTMOC9"
+49 http GET https://registry.npmjs.org/prompt
+50 http 304 https://registry.npmjs.org/prompt
+51 silly registry.get cb [ 304,
+51 silly registry.get   { date: 'Fri, 03 Jul 2015 04:00:55 GMT',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     etag: '"DPWNRI526QG24XD9DZTBTMOC9"',
+51 silly registry.get     age: '53',
+51 silly registry.get     connection: 'keep-alive',
+51 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '1',
+51 silly registry.get     'x-timer': 'S1435896055.110096,VS0,VE0',
+51 silly registry.get     vary: 'Accept' } ]
+52 verbose etag https://registry.npmjs.org/prompt from cache
+53 silly addNameRange number 2 { name: 'prompt', range: '*', hasData: true }
+54 silly addNameRange versions [ 'prompt',
+54 silly addNameRange   [ '0.0.1',
+54 silly addNameRange     '0.0.2',
+54 silly addNameRange     '0.0.3',
+54 silly addNameRange     '0.0.4',
+54 silly addNameRange     '0.1.0',
+54 silly addNameRange     '0.1.1',
+54 silly addNameRange     '0.1.2',
+54 silly addNameRange     '0.1.3',
+54 silly addNameRange     '0.1.4',
+54 silly addNameRange     '0.1.5',
+54 silly addNameRange     '0.1.7',
+54 silly addNameRange     '0.1.8',
+54 silly addNameRange     '0.1.9',
+54 silly addNameRange     '0.1.10',
+54 silly addNameRange     '0.1.11',
+54 silly addNameRange     '0.1.12',
+54 silly addNameRange     '0.2.0',
+54 silly addNameRange     '0.2.1',
+54 silly addNameRange     '0.2.2',
+54 silly addNameRange     '0.2.3',
+54 silly addNameRange     '0.2.4',
+54 silly addNameRange     '0.2.5',
+54 silly addNameRange     '0.2.6',
+54 silly addNameRange     '0.2.7',
+54 silly addNameRange     '0.2.8',
+54 silly addNameRange     '0.2.9',
+54 silly addNameRange     '0.2.10',
+54 silly addNameRange     '0.2.11',
+54 silly addNameRange     '0.2.12',
+54 silly addNameRange     '0.2.13',
+54 silly addNameRange     '0.2.14' ] ]
+55 verbose addNamed [ 'prompt', '0.2.14' ]
+56 verbose addNamed [ '0.2.14', '0.2.14' ]
+57 silly lockFile e336d148-prompt-0-2-14 prompt@0.2.14
+58 verbose lock prompt@0.2.14 C:\Users\Morulus\AppData\Roaming\npm-cache\e336d148-prompt-0-2-14.lock
+59 silly lockFile e336d148-prompt-0-2-14 prompt@0.2.14
+60 silly lockFile e336d148-prompt-0-2-14 prompt@0.2.14
+61 silly lockFile 038de136-prompt prompt@
+62 silly lockFile 038de136-prompt prompt@
+63 http 404 https://registry.npmjs.org/extend%2C
+64 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 verbose headers   'content-type': 'application/json',
+64 verbose headers   'cache-control': 'max-age=0',
+64 verbose headers   'content-length': '51',
+64 verbose headers   'accept-ranges': 'bytes',
+64 verbose headers   date: 'Fri, 03 Jul 2015 04:00:55 GMT',
+64 verbose headers   via: '1.1 varnish',
+64 verbose headers   age: '0',
+64 verbose headers   connection: 'keep-alive',
+64 verbose headers   'x-served-by': 'cache-fra1231-FRA',
+64 verbose headers   'x-cache': 'MISS',
+64 verbose headers   'x-cache-hits': '0',
+64 verbose headers   'x-timer': 'S1435896055.119408,VS0,VE177' }
+65 silly registry.get cb [ 404,
+65 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+65 silly registry.get     'content-type': 'application/json',
+65 silly registry.get     'cache-control': 'max-age=0',
+65 silly registry.get     'content-length': '51',
+65 silly registry.get     'accept-ranges': 'bytes',
+65 silly registry.get     date: 'Fri, 03 Jul 2015 04:00:55 GMT',
+65 silly registry.get     via: '1.1 varnish',
+65 silly registry.get     age: '0',
+65 silly registry.get     connection: 'keep-alive',
+65 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+65 silly registry.get     'x-cache': 'MISS',
+65 silly registry.get     'x-cache-hits': '0',
+65 silly registry.get     'x-timer': 'S1435896055.119408,VS0,VE177' } ]
+66 silly lockFile 2df10966-extend extend,@
+67 silly lockFile 2df10966-extend extend,@
+68 error 404 404 Not Found: extend%2C
+68 error 404
+68 error 404 'extend%2C' is not in the npm registry.
+68 error 404 You should bug the author to publish it
+68 error 404 It was specified as a dependency of 'dron-component'
+68 error 404
+68 error 404 Note that you can also install from a
+68 error 404 tarball, folder, or http url, or git url.
+69 error System Windows_NT 6.2.9200
+70 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "extend," "prompt" "--save"
+71 error cwd R:\home\studio\drons\component
+72 error node -v v0.10.34
+73 error npm -v 1.4.28
+74 error code E404
+75 verbose exit [ 1, true ]
